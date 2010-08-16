@@ -53,7 +53,7 @@ $.widget( "ui.autoselect", {
           }
         }
       })
-      .addClass( "test" );
+      .addClass( "ui-autoselect" );
 
     input.data( "autocomplete" )._renderItem = function( ul, item ) {
       return $( "<li></li>" )
